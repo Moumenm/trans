@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transliterate</title>
+    <link rel="stylesheet" href="../static/css/style.index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+</head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<body>
+
+    <section class="header">
+        <nav>
+            <img src="../static/images/final_logo.png" alt="">
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="/">القائمة الرئيسية</a></li>
+                    
+                    <li><a href="https://github.com/Moumenm/supp-lang/blob/main/moumen_mardukh.md">اللغات المدعومة</a></li>
+                    <li><a href="#contact-us">تعريف بسيط</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>مرحبا الى الترجمة</h1>
+            <h3>مؤمن مردوخ سامي </h3>
+
+            <a href="#features" class="hero-btn">الانتقال الى الترجمة</a>
+            <p>
+                كل هذا العمل تم صنعه عن طريق مؤمن مردوخ سامي و اثنان اخران <br>
+            <br>
+            ...الترجمة  تساعدك على ترجمة ونسخ موادك الدراسية بما في ذلك محاضرات الصوت والفيديو وملاحظات المحاضرات إلى 100 لغة يتم التحدث بها في جميع أنحاء العالم بما في ذلك
+                <br>
+             <br>اللغات الرئيسية مثل اللغه الام اللغه العربية الهندية والماراثية واليابانية والإسبانية واليونانية والألمانية وغيرها الكثير ....<br>
+            </p>
+        </div>
+
+    </section>
+
+    <section id="features">
+        <h1>خانة الترجمة</h1>
+        <p>
+            الترجمات الممكنة
+            1- الطبيعية نص الي نص مترجم 
+            2- صوت الي نص مترجم 
+            3- فديو الي نص مترجم
+        </p>
+
+        <div class="row">
+            <div class="features-col">
+                <a href="../static/utilities/video_translate.html">فديو الي نص مترجم</a>
+                <p>من هذه الخانة يستطيع على سبيل المثال الطالب بان يترجم محاضراته اذا كانت انكليزية ويدعم جميع اللغات 
+                    لكن له مشكلة واحدة اذا كان الفديو يحتوي علي لغتين مثل الانكليزي و الروسي سيترجم الكلام الاول باللغه الانكليزية 
+                    و يترك اللغه الروسيه لهذا يجب تقسيم الفديو
+                </p>
+            </div>
+
+            <div class="features-col">
+                <a href="../static/utilities/audio_translate.html">ترجمة صوتية</a>
+                <p>الترجمة الصوتية تترجم ملفك الصوتي إلى مجموعة متنوعة من اللغات المنطوقة في جميع أنحاء العالم
+                    سيساعد الطلاب
+                    في كل ركن من أركان التدريس للوصول إلى التعليم بلغتهم المحددة مما يؤدي إلى
+                    فهم اكثر للغة</p>
+            </div>
+
+            <div class="features-col">
+                <a href="../static/utilities/text_translate.html">ترجمة الطبيعية</a>
+                <p>الترجمة الاعتيادية يوجد اكثرمن مئلة لغة من ضمنها اللغات الرئيسية وبالبطع العربية والانكليزية. والهندية واليابانية و الصينية و الروسية و الفرنسية ايضا </p>
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+    
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+    <section class="footer" id="contact-us">
+        <h4>تعاريف بسيطة</h4>
+        <p><br>اسمي مؤمن مردوخ طالب متميزين اول متوسط خبير بالبرمجة لمدة سنتين واعلاف اكثر من لغة ابرزها بايثون و جافا سكربت<br> و القليل من الجافا و السي واسي بلس بلس وتقريبا تسع لغات بعد 
+             ومسوي ذكاء اصطناعي من ابرزهم ذكاء يحول الكلام الي صور هوة يرسمها و ذكاء ثاني يحللي<br> اي مسئلة و يجاوبني اي سؤال مهما كان بس ما اكدر انشره لان ما يتحول الى ملف تطبيقي</p>
+
+        <div class="icons">
+            <a href="https://t.me/moumenmardukh">
+                <i class='fa fa-telegram' style='color:#0de727'></i>
+            
+            
+        </div>
+
+
+    </section>
+
+</body>
+
+</html>
